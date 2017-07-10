@@ -13,7 +13,7 @@ FileHelper = FileHelper;
 %% Variables for MAP
 coordinateFile = 'wsc_data.xlsx';
 wscdata = FileHelper.importData(coordinateFile);
-%% Variables for Battry
+%% Variables for Battry 
 stateOfChargeDailyUsage = [0.85, 0.70, 0.55, 0.40, 0.25, 0.00];
 isFirstSoC = 0;
 %% Variables for plotting velocity realtime graph
