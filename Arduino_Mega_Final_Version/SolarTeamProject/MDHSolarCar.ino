@@ -856,9 +856,9 @@ void CruiseControl() {
 		else if (Cruise == 0) {
 			Line42 = "RDY";
 
-			Throttle = analogRead(ReadThrottlePin);
-			Throttle = map(Throttle, 0, 1023, 0, 255);
-			analogWrite(ThrottlePin, Throttle);
+			/*Throttle = analogRead(ReadThrottlePin);
+			Throttle = map(Throttle, 0, 1023, 0, 255);*/
+			analogWrite(ThrottlePin, 0);
 			
 		}
 	}
